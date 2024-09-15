@@ -1,12 +1,8 @@
 #!/usr/bin/env node
-/*
-- npm so can easily use from rapidresizer-lambda doc generation -- or some other way to use in lambda npm run docs so can get with latest version of api; rm the tests folder; RS github account; follow github book to do commits, public repo, npm -- link to it from rs.ca -- ad for rr
-- README: todo: max-depth option, couldn't get clockwise alphabetical -- though the counterlcokwise looks good for branches below a node, goes left to right
-*/
 
 import commandLineArgs from 'command-line-args';
 const commandLineOptions = [
-    { name: 'src', type: String, description: "Input OpenAPI JSON file (default option = 'openapi.json')", defaultValue: 'openapi.json', defaultOption: true }, // stupid command-line-usage doesn't automatically show that it's the defaultOption and has a defaultValue
+    { name: 'src', type: String, description: "Input OpenAPI JSON file (default option = 'openapi.json')", defaultValue: 'openapi.json', defaultOption: true }, // command-line-usage doesn't automatically show that it's the defaultOption and has a defaultValue
     { name: 'bw', alias: 'b', description: "Output in black & white instead of color", type: Boolean },
     { name: 'help', alias: 'h', type: Boolean },
 ];
