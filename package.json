@@ -4,9 +4,10 @@
   "description": "Creates a graph from an OpenAPI JSON file.",
   "type": "module",
   "main": "index.js",
-  "bin": "./index.js",
-  "scripts": {
+  "bin": {
+    "openapi-visualizer": "index.js"
   },
+  "scripts": {},
   "author": "Roberts Studios",
   "license": "ISC",
   "dependencies": {
@@ -16,6 +17,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roberts-studios/openapi-visualizer"
+    "url": "git+https://github.com/roberts-studios/openapi-visualizer.git"
   }
 }

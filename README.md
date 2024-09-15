@@ -2,9 +2,11 @@ Creates a graph from an OpenAPI JSON file.
 
 Run it in the same directory as your openapi.json:
 
-    npx
+    npx @roberts-studios/openapi-visualizer
 
-    npx --help
+    npx @roberts-studios/openapi-visualizer --help
+
+Requires grahpviz to be installed.
 
 TO DO
 
