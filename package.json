@@ -1,6 +1,6 @@
 {
-  "name": "openapi-visualizer",
-  "version": "1.0.3",
+  "name": "@roberts-studios/openapi-visualizer",
+  "version": "1.0.0",
   "description": "Creates a graph from an OpenAPI JSON file.",
   "type": "module",
   "main": "index.js",
