@@ -1,0 +1,21 @@
+{
+  "name": "openapi-visualizer",
+  "version": "1.0.3",
+  "description": "Creates a graph from an OpenAPI JSON file.",
+  "type": "module",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+  },
+  "author": "Roberts Studios",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^6.0.0",
+    "command-line-usage": "^7.0.3",
+    "graphviz": "^0.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberts-studios/openapi-visualizer"
+  }
+}
