@@ -111,6 +111,8 @@ function addNodes(apiNode, graphNode, branchColor=null) {
         addNodes(apiBranch, child, color);
     }
 }
+
+// couldn't get clockwise alphabetical despite changing the order nodes are put into graphviz -- though the counterclockwise looks good for branches below a node, going left to right
 // function addNodes(queue) {
 //     while (queue.length) {
 //         const [apiNode, graphNode] = queue.shift();

@@ -1,14 +1,23 @@
-Creates a graph from an OpenAPI JSON file.
+# openapi-visualizer
 
-Run it in the same directory as your openapi.json:
+openapi-visualizer is a Node package that creates a graph from an OpenAPI JSON document.
+
+![Sample API graph](https://github.com/roberts-studios/openapi-visualizer/blob/master/doc/openapi.png?raw=true)
+
+## Usage
+
+Run it in the same directory as your openapi.json. It outputs an openapi.png.
 
     npx @roberts-studios/openapi-visualizer
 
     npx @roberts-studios/openapi-visualizer --help
 
-Requires grahpviz to be installed.
+Requires [Graphviz](https://graphviz.org/download/) to be installed.
 
-TO DO
+## License
+
+ISC
+
+## To Do
 
 - max-depth option?
-- couldn't get clockwise alphabetical -- though the counterclockwise looks good for branches below a node, goes left to right

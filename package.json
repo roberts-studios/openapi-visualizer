@@ -1,12 +1,16 @@
 {
   "name": "@roberts-studios/openapi-visualizer",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Creates a graph from an OpenAPI JSON file.",
+  "keywords": ["openapi", "swagger", "rest", "api", "graph", "visualizer"],
   "type": "module",
   "main": "index.js",
   "bin": {
     "openapi-visualizer": "index.js"
   },
+  "files": [
+    "!docs/**/*"
+  ],
   "scripts": {},
   "author": "Roberts Studios",
   "license": "ISC",
